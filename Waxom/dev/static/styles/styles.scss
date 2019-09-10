@@ -1,0 +1,23 @@
+// Utils
+@import "utils/normalize";
+@import "utils/include-media";
+
+// Base
+@import "base/typography";
+@import "base/basic";
+
+// Modules
+@import "header"; 
+@import "blocks.scss";
+@import 'buttons.scss';
+@import 'main.scss';
+@import 'text.scss';
+@import 'waxom.scss';
+@import 'work.scss';
+@import 'waxomVideo.scss';
+@import 'mobile.scss';
+@import 'statistics.scss';
+@import 'recent.scss';
+@import 'logos.scss';
+@import 'contact.scss';
+@import 'footer.scss';

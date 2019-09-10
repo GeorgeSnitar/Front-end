@@ -1,0 +1,98 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: black;
+  background: white;
+  height: 100%;
+  min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @include media('>=tablet'){
+    font-size: 1.4rem;
+  }
+  @include media('>=desktop'){
+    font-size: 1.6rem;
+  }
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video,
+textarea {
+  vertical-align: middle;
+}
+img{
+  max-height: 50vh;
+}
+textarea {
+  resize: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+section {
+  position: relative;
+}
+
+input,
+select,
+button {
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hidden {
+  display: none !important ;
+}
+
+.is-mobile {
+  @include media(">=desktop") {
+    display: none !important;
+  }
+}
+
+.is-desktop {
+  display: none !important;
+  @include media(">=desktop") {
+    display: block !important;
+  }
+}
+
+

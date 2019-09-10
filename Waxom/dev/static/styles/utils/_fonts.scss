@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Noto Serif'), local('NotoSerif'),
+  url('../fonts/NotoSerif-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Noto Serif Bold'), local('NotoSerif-Bold'),
+  url('../fonts/NotoSerif-Bold.woff') format('woff');
+}

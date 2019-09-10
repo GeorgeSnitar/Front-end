@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 140vh;
+    align-items: center;
+    margin: auto;
+    
+    &__blocks{
+        width: 15em;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        height: 18em;
+    
+        
+
+        &--m{
+            margin-top: 1em;
+            padding: 1em;
+        }
+    }
+}
+
+@media screen and (min-width:1000px){
+
+    .main{
+        width: 100%;
+        height: auto;
+        padding: 2em 0 ;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    
+}

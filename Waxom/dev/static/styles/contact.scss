@@ -1,0 +1,41 @@
+.contact{
+  width: 100%;
+  padding: 5em 0 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  &__blocks--m{
+      width: 15em;
+      margin-top: 1em;
+      color: #555555;
+
+      h2{
+          color: #fff;
+          font-weight: 200;
+      }
+  }
+
+  &__flex{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  
+  &__img{
+      width: 48%;
+      margin-top: .5em;
+  }
+}
+
+@media screen and ( min-width:1000px ){
+    .contact{
+        height: auto;
+        flex-direction: row;
+
+        &__read{
+            font-size: .8em;
+        }
+    }
+} 

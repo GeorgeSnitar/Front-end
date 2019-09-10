@@ -1,0 +1,60 @@
+
+
+.hamburger__button{
+    width: 50px;
+    height: 50px;
+    background-color:transparent;
+    border-radius: 50%;
+    position: relative;
+}
+.hamburger__button span,
+.hamburger__button span::before,
+.hamburger__button span::after{
+    position: absolute;
+    top: 50%; margin-top: -1px;
+    left: 50%;margin-left: -10px;
+    width: 20px; 
+    height: 2px;
+    background-color: #222;
+}
+
+.hamburger__button span::before,
+.hamburger__button span::after{
+content: '';
+display: block;
+transition: 0.2s;
+}
+
+.hamburger__button span::before{
+    transform: translateY(-5px);
+}
+.hamburger__button  span::after{
+  transform: translateY(5px);
+}
+
+.hamburger__button--active span{
+    background-color: transparent;
+}
+.hamburger__button--active span:before{
+    transform: rotate(45deg);
+}
+
+.hamburger__button--active span:after{
+    transform: rotate(-45deg);
+} 
+
+
+//centraltxt__btn
+.work__button,
+.centraltxt__btn{
+    background: #998675;
+    color: white;
+    border-radius: .1em;
+    width: 8em;
+    height: 3vh;
+    padding: .4em .8em;
+}
+
+.work__button{
+    margin: 2em auto;
+}

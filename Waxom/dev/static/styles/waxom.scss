@@ -1,0 +1,20 @@
+.waxom{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 3em;
+  width: 100%;
+  height: 50vh;
+
+
+}
+
+@media screen and ( min-width:1000px){
+  .waxom{
+    padding-top: 2em;
+    width: 80%;
+    height: 52vh;
+  }
+}

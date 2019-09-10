@@ -1,0 +1,53 @@
+.recent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+
+    &__img{
+        width: 40%;
+        position: relative;
+
+        &:before{
+            position: absolute;
+            content: url(../images/RecentDateBefore.png);
+            left: 1em;
+            top: 1em;
+        }
+    }
+    
+    &__txt-container{
+        margin: auto;
+        height: 6.5em;
+        width: 40%;
+        padding: .8em 0 .8em 1em;
+        text-align: left;
+    }
+      
+    &__txt-container:hover{
+        color:#c7b299;
+        background-color: #362f2d;
+      }
+}
+
+@media screen and ( min-width:1000px ){
+    .recent{
+     height: 40vh;
+
+     &__img-container{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+     }
+
+     &__img{
+         width: 70%;
+     }
+
+     &__txt-container{
+         width: 70%;
+         height: auto;
+     }
+    }
+
+}

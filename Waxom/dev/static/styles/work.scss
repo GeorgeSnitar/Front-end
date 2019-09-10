@@ -1,0 +1,57 @@
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    
+
+      &__txt-container{
+          margin: auto;
+          height: 5em;
+          width: 40%;
+          color: #c7b299;
+          padding: .8em 0 .8em 1em;
+          text-align: left;
+          position: relative;
+      }
+          &__txt-container:hover{
+            color:#d1d1d1;
+            background-color: #362f2d;
+          }
+          &__txt-container:hover :before{
+              position: absolute;
+              content: url(../images/arrow1.png);
+              top: -10px;
+              left: 2px;
+          }
+      
+
+
+        &__img{
+            width: 40%;
+            margin: auto;
+        }
+}
+
+@media screen and ( min-width: 1000px ){
+  .work{
+   height: 85vh;
+
+   &__spaces-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     flex-wrap: wrap;
+   }
+    &__spaces{
+      width: 30%;
+    }
+      &__txt-container{
+        width: 100%;
+      }
+
+   &__img{
+     width: 100%;
+   }
+  }
+}

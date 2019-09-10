@@ -1,0 +1,11 @@
+module.exports = [
+    './gulp/tasks/clean',
+    './gulp/tasks/fonts',
+    './gulp/tasks/image',
+    './gulp/tasks/html',
+    './gulp/tasks/scripts',
+    './gulp/tasks/serve',
+    './gulp/tasks/styles',
+    './gulp/tasks/svg',
+    './gulp/tasks/watch'
+];

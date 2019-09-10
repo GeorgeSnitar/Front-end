@@ -1,0 +1,76 @@
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+            &__icon{
+                width: 1.8em;
+                height: 1.8em;
+            }
+}
+    .logo{
+        width: 9em;
+        height: 4em;
+    }
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 8em;
+    background-color: rgb(47, 44, 44);
+    right: -100%;
+    top: 10px;
+    transition: right .4s ease-in-out;
+
+    &.is-active {  
+      right: 35px;  
+      position: fixed;
+    }
+
+    &__link{
+            font-family: "Montserrat";
+            color: rgb(255, 255, 255);
+            font-size: 1em;
+            line-height: .8;
+        
+            &--margin{
+                margin: .6em 0 0 .2em;
+            }
+
+            &:hover{
+               opacity: .5;
+            }
+    }
+}
+
+@media screen and (min-width:1000px){
+    .header{
+        justify-content: space-between;
+
+        &__icon{
+            top: .7em;
+            left: 65em;
+            position: absolute;
+        }        
+    }
+    .nav {
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            top: 1em;
+            left: 22em;
+            width: 31em;
+            background-color: transparent;
+    }
+    .nav__link{
+        &--margin{
+            margin: 0 .6em 0 0;
+        }
+    }
+   
+    .hamburger__button{
+        display: none;
+    }
+
+}

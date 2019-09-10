@@ -1,0 +1,40 @@
+.mobile{
+    width: 100%;
+    padding-top: 2vh;
+    display: flex;
+    justify-content: flex-end;
+  
+    &__img{
+        width: 50%;
+    }
+    &__txt-container{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-top: 3em;
+    }
+  
+    &__txt-container--2{
+        padding: 1em 0 0 5em;
+        p{
+            margin-top: .5em;
+            position: relative;
+
+            &:before{
+                position: absolute;
+                content: url(../images/beforeMobile.png);
+                left: -3em;
+                top: 0;
+            }
+        }
+    }
+
+}
+
+@media screen and ( min-width: 1000px ){
+    .mobile{
+        &__img{
+            width: 35%;
+        }
+    }
+}

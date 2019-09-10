@@ -1,0 +1,66 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0 0 .5em;
+}
+
+h1 {
+  font-size: 3rem;
+  @include media(">=tablet") {
+    font-size: 4.2rem;
+  }
+  @include media(">=desktop") {
+    font-size: 5.2rem;
+  }
+}
+
+h2 {
+  font-size: 1.8rem;
+  @include media('>=tablet'){
+    font-size: 2.4rem;
+  }
+  @include media('>=desktop'){
+    font-size: 3rem;
+  }
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-size: 1.2rem;
+  @include media('>=tablet'){
+    font-size: 1.4rem;
+  }
+  @include media('>=desktop'){
+    font-size: 1.6rem;
+  }
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+img {
+  display: block;
+  width: 100%;
+}
