@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+   
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<script src="wow.min.js"></script>
+    <script >
+    	new WOW().init();
+    </script>
+	<title>Spaces</title>
+</head>
+<body>
+	<header class="header">
+		<div class="logoimg">
+			<button style="cursor: pointer;opacity: 1;"><a href="index.html"></a><img src="Images/logoimg.png" alt="logo"></button>
+		</div>
+
+		<nav class="navigation">
+		<div class="nav-container" >	
+			<a href="#" class="navheader ">Features</a>
+			<a href="#" class="navheader">Apps</a>
+			<a href="#" class="navheader">Tips</a>
+			<a href="#" class="navheader">Switch</a>
+			<a href="#" class="navheader">Offers</a>
+    </div>	
+
+		<div class="findyours">
+		   <input type="button" class="find"  value="Find Yours"/>
+		</div>  	
+      </nav>
+	</header>
+      
+
+
+      <main class="main" style="margin-top: 5%;">
+      	<div class="laptop-photo wow fadeInDown">
+      		<p class="upper-photo wow fadeInUpBig">The new Chromebooks are here</p>
+      	</div>
+
+        <div class="smartphone-box wow">
+        	<p class="textsmartphones wow zoomInDown">See how SMARTPHONES capture the whole world</p>
+        </div>
+        
+         <div class="wrap">
+         	<h1>Comes in all shapes and sizes. Find one that fits.</h1>
+         	 <div class="slider">
+         	   <button onclick="prev()">&laquo;</button>
+                 <div class="scroller">
+                 	<ul class="items">
+                 		<li class="item" style="background-image: url(Images/1sc.jpg);"></li>
+                 		<li class="item" style="background-image: url(Images/2sc.jpg);"></li>
+                 		<li class="item" style="background-image: url(Images/3sc.jpg);"></li>
+                 		<li class="item" style="background-image: url(Images/4sc.jpg);"></li>
+                 		<li class="item" style="background-image: url(Images/5sc.jpg);"></li>
+                 		<li class="item" style="background-image: url(Images/6sc.jpg);"></li>	
+                 	</ul>
+                 </div>
+                 <button onclick="next()">&raquo;</button>
+         	 </div>
+         </div>
+
+        <div class="empty" style="min-height:200px; max-width: 100%;background-color: #fff;"></div>
+      </main>
+
+      <footer class="footer">
+      	<div class="form-container">
+         <form action="">
+           <h1 class="foottext">Get the latest on Chromebook</h1>
+           <div class="form-field">
+             <label for="email"></label>
+             <input type="email" name="email" id="email" placeholder="your email address">
+           </div>
+
+           <div class="sub-container">
+             <input class="sub" type="submit" value="Send" onclick="alert('Message sent');">
+           </div>
+
+         </form> 
+        </div>
+      </footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+<script src="script.js"></script>
+
+
+
+</body>
+</html>

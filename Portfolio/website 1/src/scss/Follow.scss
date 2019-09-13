@@ -1,0 +1,17 @@
+.Follow{
+    max-width: 1600px;
+    min-height: 332px;
+    margin: 0 auto;
+    background-image:url(../img/Follow__back.png);
+    
+
+    &__container{
+        display: flex;
+        max-width: 850px;
+        min-height: 332px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+}

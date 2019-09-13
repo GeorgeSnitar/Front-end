@@ -1,0 +1,72 @@
+.specialization{
+    display: flex;
+    max-width: 1600px;
+    min-height:612px;
+    margin: 0 auto;
+
+    &__img-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 0;
+        min-height: 612px;
+        width: 712px;
+        background: url(../img/Left-image.png);
+        background-size: cover;
+
+    }
+    &__Alltext{
+     color: #fff;
+     font-family: 'Schoolbell', cursive;
+     max-width: 100%;
+     margin-top: 0;
+    }
+    &__first-text{
+        font-size: 100px;
+        letter-spacing: 4px;
+    }
+    &__second-text{
+        font-size: 70px;
+        letter-spacing: 3px;
+    }
+    &__third-text{
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+    &__fourth-text{
+        letter-spacing: 0;
+        font-size: 30px;
+    }  
+
+          
+            &__icons{
+                max-width: 888px;
+                min-height: 612px;
+                padding: 70px 0 0 50px;
+            }
+            &__general{
+                margin-top:0;
+                font-size: 40px;
+                padding-left: 23px;
+            }
+          
+
+          &__container{
+              display: flex;
+              flex-direction: column;
+            
+          }
+          &__underContainer{
+              display: flex;
+              justify-content: center;
+              margin-right: 200px;
+          }
+          &__logo{
+             max-width: 54px;
+             height: 54px;
+             padding: 15px;
+          }
+        
+    
+}

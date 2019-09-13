@@ -1,0 +1,61 @@
+.whoWeAre{
+    max-width: 1600px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+    &__container1{
+        display: flex;
+        flex-direction: column;
+        max-width: 35%;
+    }
+
+    &__title{
+        max-width: 50%;
+        font-weight: bold;
+    }
+     
+    &__text{
+        max-width: 95%;
+        line-height: 23px;
+        font-weight: 400;
+
+    }
+
+    &__button{
+        max-width: 22%;
+        min-height: 30px;
+        color: #fff;
+        border-radius: 15px;
+        border-style: none;
+        outline: none;
+        background-color: #00aeed;
+    }
+
+    &__container2{
+        display: flex;
+        align-items: center;
+        max-width:40%;
+        min-height: 500px;
+        position: relative;     
+
+        &:before{
+            content:url('../img/Rectangle\ 3\ copy.jpg');
+            display: block;
+            position: absolute;
+            left: 460px;
+            top:-10px;
+            z-index:-1;
+        }
+    
+    }
+
+    &__img{
+
+         min-height: 368px;
+         max-width: 692px;
+     }
+    
+    
+}

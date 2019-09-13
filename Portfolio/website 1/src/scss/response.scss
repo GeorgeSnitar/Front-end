@@ -1,0 +1,86 @@
+
+
+.response{
+    background-image:url(../img/Back.png);
+    background-size: cover;
+    max-width: 1600px; 
+    min-height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    &__man{
+        height:80%;
+    }
+
+&__imgTxt{
+    display:flex;
+
+    max-width: 50%;
+    order: 1;
+    flex-wrap: wrap;
+
+}
+    &__text{
+        text-align: left;
+        max-width: 550px;
+        color:#fff;
+        font-size:20px;
+    }      
+    &__img{
+        height: 30%;
+    }
+
+
+            &__aboutMan{
+                min-height:220px;
+                max-width: 800px;
+                margin: 15px  auto 15px auto;
+                text-align: center;
+                
+           
+            }
+
+    &__name{
+        font-size: 30px;
+        margin: 0;
+        color: #fff;
+    }
+
+    &__profession{
+        font-size: 14px;
+        color:white;
+        margin: 0;
+    }
+
+
+                    &__downBlock{
+                     display: flex;
+                     min-height: 30%;
+                     max-width: 250px;
+                     justify-content: space-between; 
+                     margin-top: 50%;
+                    }
+
+      &__radius{    
+      width: 15px;
+      height: 15px;
+      border:1px solid white;
+      border-radius:50%;
+      background-color: #fff;
+
+      }
+
+      &__radiusDone{
+        width: 15px;
+        height: 15px;
+        border:1px solid  #00aeed;
+        border-radius:50%;
+        background-color:  #00aeed;
+
+      }
+    
+
+}

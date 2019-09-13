@@ -1,0 +1,77 @@
+.quote{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    background-image: url('../img/quotebefore.png');
+    background-repeat: no-repeat;
+    background-position: 38% 15%;
+
+    &::before{
+        position: absolute;
+        content: url(../img/quotebutton.png);
+        left: 57.5%;
+        top: 73%;
+        z-index: 2;
+    }
+    
+    &__container1{
+     width: 40%;
+     height: 70vh;    
+     position: absolute;
+     left: 55%;
+     top: 15%;
+     background-image: url(../img/bodyback.png);
+    }
+    &__container2{
+        width: 48%;
+        height: 35vh;
+        background-color: white;
+        position: absolute;
+        top: 350px;
+        left:750px;
+        box-shadow: 0px 15px 40px -30px black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__letter{
+            width: 85%;
+            font-size: 36px;
+            font-family: "PlayfairDisplay",;
+            color: rgb(39, 61, 70);
+            line-height: 1.278;
+            text-align: left;
+            font-style: italic;
+            position: relative;
+            &::before{
+                position: absolute;
+                content: url(../img/beforeletter.png);
+                top: -22px;
+                left: -10px;
+            }
+            &:after{
+                position: absolute;
+                content: url(../img/afterletter.png);
+                top: 75px;
+            }
+          }
+    &__date{
+            font-size: 14px;
+            font-family: "Poppins",sans-serif;
+            color: rgba(39, 61, 70, 0.8);
+            text-transform: uppercase;
+            line-height: 2.857;
+            font-weight: 600;
+          }
+    &__time{
+            margin-left: 5px;
+            margin-right: 600px;
+            color: rgba(122, 123, 124, 0.8);
+    }
+    &__btn{
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 45%;
+    }
+}

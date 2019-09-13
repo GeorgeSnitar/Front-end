@@ -1,0 +1,358 @@
+html{
+	font-family: sans-serif;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+}
+body{
+	margin: 0;
+	padding: 0 15px;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+}
+.landing-photo{
+	width: 100%;
+	height: 2640px;
+	background-image: url(Images/white-brick.jpg);
+	background-repeat: repeat-x repeat-y;
+	background-size: contain;
+}
+header{
+	margin: 120px auto 0 auto;
+	max-width: 1070px;
+	width: 100%;
+	min-height: 65px;
+	background-color:#F0F0F0;
+	opacity: 0.8;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 5px solid rgba(0,0,0,0.2);
+}
+.logo{
+	max-width: 25%;
+	min-height: 50px;
+	display: flex;
+    color: #000;
+    font-size: 35px;
+    font-family: 'Lakki Reddy', cursive;
+    font-style: italic;
+    align-self: center;
+    margin-left: 9%;
+    cursor: pointer;
+}
+
+.ull{
+	max-width: 100%;
+	min-height: 65px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.ull li{
+display: flex;	
+list-style: none;
+max-width: 100%;
+}
+.navigators{
+  display: flex;
+  font-size: 16px;
+  max-width: 100%;
+  min-height: auto;
+  color: #121212;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 35px;
+  align-items: center;
+  opacity: 0.8;
+}
+.navigators:hover{
+ opacity: 1;
+ border-bottom: 2px solid red;
+}
+
+
+
+
+
+                         /*MAIN*/
+
+main{
+	margin: 0 auto 0 auto;
+	min-height:1000px;
+	max-width: 1070px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.our-container{
+	max-width: 1070px;
+	width: 100%;
+	min-height: 400px;
+	display: flex;
+	flex-direction: row;
+}
+.left-our {
+max-width: 510px;
+width: 100%;
+min-height: 400px;
+background-image: url(Images/wh.png);
+background-size: contain;
+background-repeat: repeat-x;
+opacity: 0.9;
+text-align: center;
+}
+.left-our hr{
+	width: 40px;
+	opacity: 0.9;
+}
+.left-our p{
+	word-spacing: 4px;
+	font-size: 15px;
+	font-family: 'Lobster', cursive;
+	max-width: 60%;
+	margin: 30px auto 0 auto;
+}
+.img-our{
+	width: 100%;
+	display: flex;
+	flex: 1 1 560px;
+	min-height: 400px;
+	background-image: url(Images/kitchen.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+
+
+                 /*FRESH ARTICLE*/
+
+.fresh-container{
+	max-width: 1070px;
+	width: 100%;
+	min-height: 443px;
+	display: flex;
+	flex-direction: row;
+}                 
+.fresh-img{
+	width: 100%;
+    max-width: 653px;
+    min-height: 443px;
+	background-image: url(Images/fresh.jpg);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat no-repeat; 
+}
+
+
+.fresh-text{
+	max-width: 417px;
+	width: 100%;
+	min-height: 443px;
+	text-align: center;
+	background-image: url(Images/wh.png);
+	opacity: 0.9;
+}
+.fresh-text hr{
+	width: 30px;
+	opacity: 0.9;
+}
+.fresh-text p{
+	word-spacing: 3px;
+	font-family: 'Lobster', cursive;
+	font-size: 15px;
+	max-width: 70%;
+	margin: 30px auto 0 auto;
+}
+
+
+
+                  /*DISTILLATIONS PART*/
+
+
+.distillations{
+	max-width: 1070px;
+	width: 100%;
+	min-height: 443px;
+	display: flex;
+	flex-direction: row;
+
+}
+.distil-text{
+	max-width: 417px;
+	width: 100%;
+	min-height: 443px;
+	text-align: center;
+	background-image: url(Images/wh.png);
+}
+.distil-text p{
+	max-width: 70%;
+	margin: 30px auto 0 auto;
+	font-family: 'Lobster', cursive;
+	font-size: 15px;
+    word-spacing: 4px;
+}
+.vegetables{
+	width: 100%;
+	max-width: 653px;
+	min-height: 443px;
+	background-image: url(Images/vegetables.jpg);
+	background-size: contain;
+	background-position: center center;
+    background-repeat: no-repeat no-repeat;
+	opacity: 0.9;
+}   
+
+
+               /*LASTPHOTO*/               
+
+.last-photo{
+	max-width: 1070px;
+	width: 100%;
+	min-height: 500px;
+	opacity: 0.9;
+	background-image: url(Images/lastphoto.jpg);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat no-repeat;
+}               
+
+
+
+                /*FOOTER*/
+
+
+footer{
+	position: relative;
+	max-width: 1070px;
+	width: 100%;
+	min-height: 350px;
+    margin: 0 auto;
+	opacity: 0.8;
+	background-image: url(Images/wh.png);
+	background-size: contain;
+}
+.footer-logo{
+	position: absolute;
+	max-width: 250px;
+	width: 100%;
+	min-height: 100px;
+	text-align: center;
+	top: 70px;
+	left: 70px;
+	font-size: 35px;
+	font-family: 'Lakki Reddy', cursive;
+    font-style: italic;
+}
+.thanks-block{
+	position: absolute;
+	max-width: 400px;
+	width: 100%;
+	min-height: 150px;
+    top: 170px;
+    left: 40px;
+    font-family: 'Merienda', cursive;
+}
+.thanks-block h2{
+ font-size: 30px;
+  font-family: 'Merienda', cursive;
+}
+.thanks-block p{
+font-size: 25px;
+font-weight: 600;
+}
+
+.icon{
+	max-width: 300px;
+	width: 100%;
+	min-height: 50px;
+	position: absolute;
+	top: 85%;
+	left: 85%;
+}
+.icon-items{
+	max-width: 32px;
+	width: 100%;
+	min-height: 32px;
+	cursor: pointer;
+	opacity: 0.8;
+}
+.icon-items:hover{
+	opacity: 1;
+}
+
+
+             /*MEDIA PART*/
+
+
+@media screen and (max-width: 1120px){
+	.landing-photo{
+		background-image: url(Images/wh.png);
+		background-size: contain;
+		background-repeat: repeat-x repeat-y;
+
+	}
+	.our-container{
+		min-height: 800px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+    .left-our{
+    	max-width: 1070px;
+    	font-size: 20px;
+    	min-height: 400px;
+    }
+
+
+    .distillations,
+    .fresh-container{
+    	min-height: 886px;
+    	display: flex;
+    	flex-wrap: wrap;
+    }
+    .fresh-text{
+    	display: flex;
+    	flex-direction: column;
+    	order: -1;
+    	max-width:  1070px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .fresh-img{
+    	max-width: 1070px;
+    }
+
+    .distil-text{
+    	max-width: 1070px;
+    	min-height: 443px;
+    	font-size: 20px;
+    	display: flex;
+    	flex-direction: column;
+    }
+    .vegetables{
+    	max-width: 1070px;
+    }
+    .last-photo{
+    max-width: 0px;
+    min-height: 0px;
+    }
+
+
+    .footer-logo{
+    font-size: 30px;
+	font-family: 'Lakki Reddy', cursive;
+    font-style: italic;
+    }
+    .thanks-block h2{
+     font-size: 25px;
+     font-family: 'Merienda', cursive;
+    }
+    .thanks-block p{
+    	font-size: 22px;
+    	font-weight: 570;
+    }
+
+}             

@@ -1,0 +1,37 @@
+#header{
+    height:30vh;
+    width: 100%;
+    background-image: url('../img/story.png');
+    background-repeat: no-repeat no-repeat;
+    background-position: center;
+    position: relative;
+
+    &__marcy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15%;
+        height: 12vh;
+        margin: 0 auto;
+        background-color: #80b7b3; 
+        box-shadow: 0px 17px 39px -20px;
+    }
+    &__text{
+        font-size: 4em;
+        color: white;
+    }
+    &__btn{
+        position: absolute;
+        left: 13%;
+        top: 30%;
+        background: none;
+        border-style: none;
+        outline: none;
+        color:#939ea2;
+        cursor: pointer;
+    }
+   
+}
+
+  
+  

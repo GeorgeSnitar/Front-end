@@ -1,0 +1,14 @@
+@import 'header';
+@import 'general';
+@import 'block3.scss';
+@import 'video.scss';
+@import 'quote.scss';
+@import 'lastForm.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 1870px;
+}

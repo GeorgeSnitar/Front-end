@@ -1,0 +1,151 @@
+@import '../partials/_mixin.scss';
+@import 'whoWeAre.scss';
+@import 'response.scss';
+@import 'services.scss';
+@import 'WhatWeDo.scss';
+@import 'News.scss';
+@import 'Follow.scss';
+
+
+
+
+html,body{
+    font-size:16px;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.header{ 
+
+    max-width: 1600px;
+    min-height: 729px;
+    background: url('../img/world-map.jpg');
+    background-size: cover;
+    margin: 0 auto;
+
+    &__logo{
+    color: white;
+    font-size: 25px;
+    font-weight:600;
+    }
+    
+    &__way{
+       color: #47408d;
+    }
+
+    &__top{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    &__weAre{
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        display: flex;
+        margin-top: 30px;
+        list-style: none;
+        color:#EBEDE8;
+        font-weight: bolder;    
+    }
+
+
+    &__imagine{
+        display: flex;
+        flex-direction: column;
+        height:600px;
+    }
+ 
+    &__leftText{
+    text-align: center;
+    }   
+   
+    &__rightText{
+        font-size: 16px;
+        letter-spacing: 1px;
+        height: 130px;
+        width: 300px;
+        color:#ffffff;
+    }
+
+    &__click{
+        color: #fff;
+        background-color: #00aeed;
+        padding: 5px 27px;
+        border-radius: 15px;
+        height: 30px;
+        width: 40%;
+        border-style: none;
+        outline: none;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    &__txtBtn{
+        height: 300px;
+    }
+
+    &__bottom:before{
+        position: absolute;
+        display: block;
+        content: "";
+        height: 2px;
+        width: 0%;
+        background-color: #6293E9;
+        transition:width .3s ease-in-out, left .3s ease-in-out;
+        left: 50%;
+        bottom: 0;
+        } 
+        &__bottom:after{
+        position: absolute;
+        display: block;
+        content: "";
+        height: 2px;
+        width: 0%;
+        background-color: #6293E9;
+        transition:width .3s ease-in-out;
+        left: 50%;
+        bottom: 0;
+        } 
+        &__bottom:hover{
+            transform: scale(1.2);
+            transition-duration: 300ms;
+        }
+        &__bottom:hover:before,
+        &__bottom:focus:before{
+            width: 50%;
+            left: 0;
+        }
+        &__bottom:hover:after,
+        &__bottom:focus:after{
+            width: 50%;
+        }    
+
+    
+} 
+.header__navigation{
+    display: flex;
+    list-style: none;
+    height:65px;
+    width: 550px;
+    max-width: 550px;
+    align-items: center;
+    justify-content: space-between; 
+    color: white;
+    font-size: 14px;
+    cursor:pointer;
+
+
+}
+
+
+   
+
+
+
+
+
+
+

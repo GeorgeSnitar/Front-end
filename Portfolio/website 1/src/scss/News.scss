@@ -1,0 +1,37 @@
+.News{
+    max-width: 1600px;
+    min-height: 700px;
+    padding-top: 50px;
+    margin: 0 auto;
+
+    &__general{
+        text-align: center;
+        margin: 0 auto;
+        font-weight:900;
+    }
+
+    &__container{
+        padding-top: 50px;
+        margin:0 auto;
+        display: flex;
+        max-width: 80%;
+        justify-content: space-around;
+    }
+    &__underContainer{
+        display: flex;
+        flex-direction: column;
+        max-width: 40%;
+    }
+    &__txt{
+        word-spacing: 4px;
+    }
+    &__click{
+        max-width: 20%;
+        padding: 5px;
+        color: #fff;
+        background-color: #00aeed;
+        border-radius: 15px;
+        border-style: none;
+        outline: none;
+    }
+}
